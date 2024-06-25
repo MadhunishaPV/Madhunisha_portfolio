@@ -1,0 +1,59 @@
+@import url(./login.css);
+*{
+    padding: 0 ;
+    margin: 0;
+}
+.parentdiv{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 400px;
+    font-size: 30px;
+    margin-right: 10px;
+    float: right;
+}
+h3{
+    background-color: #000;
+    display: inline;
+    color:#fff;
+}
+body{
+    background-image: url(https://e0.pxfuel.com/wallpapers/78/485/desktop-wallpaper-coloros-12-blue-oppo-oppo-ui-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    float: left;
+    width: 25%;
+    padding: 0;
+}
+.bi bi-box-arrow-right{
+    margin-bottom: 5px;
+}
+.footer{
+    background-color: #198754;
+}
+.footer-content h2{
+      color: #fff;
+}
+.footer-content h5,p,a{
+    color: #fff;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}
+.footer hr{
+    background-color: #fff;
+}
+.about_para{
+    color: black;
+}
+.card-text{
+    color: black;
+}
+.icon{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   padding: 0%;
+}
